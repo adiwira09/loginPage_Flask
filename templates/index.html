@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Login</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <script src="../static/popupLoginFailed.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="../static/Nature_Logo.png" alt="Nature_Logo" class="Nature-Logo">
+        <form action="/proses_login" method="post">
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Masuk">
+        </form>
+        <div class="or-separator">
+            <span>ATAU</span>
+        </div>
+        <a href="lupa_password.php" class="forgot-password">Lupa Kata Sandi?</a>
+        <p>Belum punya akun? <a href="daftar.php">Daftar</a></p>
+    </div>
+</body>
+</html>

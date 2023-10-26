@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 236, 255);
+    background-image: repeating-linear-gradient(#41f2ff, #0effbb);
+    z-index: -1;
+}
+
+h2,
+h3 {
+    color: #9900ff;
+    text-align: center;
+}
+
+h4 {
+    color: #c70eff;
+    text-align: center;
+}
+
+p {
+    text-indent: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+   
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+}
+
+.wrapper {
+    box-shadow: 0 10px 20px 0 #fb00ff;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f4ea63;
+}
+
+/* header */
+.jumtron {
+    font-size: 20px;
+    padding: 70px;
+    background-color: #009a85;
+    background-image: repeating-linear-gradient(#41f2ff, #0effbb);
+    text-align: center;
+    color: rgb(168, 0, 246);
+}
+
+/* Navbar */
+nav {
+    background-color: #895eff;
+    padding: 5px;
+    position: sticky;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.active {
+    background-color: #fdca00;
+    border-radius: 15px;
+    color: rgb(218, 7, 255);
+    padding: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.featured-image {
+    width: 300%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.4s;
+    border-radius: 30px;
+    padding: auto;
+    margin: auto;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.content {
+    float: left;
+    width: 70%;
+    padding: 5px;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    padding: 10px;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    padding: auto;
+    margin: auto;
+    width: 150px;
+}
+
+.featured-image:hover {
+    transform: scale(1.1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.line {
+    line-height: 2em;
+}
+
+
+/* footer */
+footer {
+    padding: 15px;
+    color: aquamarine;
+    background-color: #c70eff;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* tampilan Responsif pada smartphone */
+@media screen and (max-width: 1000px) {
+    .content,
+    aside {
+        width: 100%;
+        padding: 0;
+     
+    }
+
+
+.text p {
+    text-align: justify;
+}
+}

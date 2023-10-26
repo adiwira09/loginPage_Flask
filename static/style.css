@@ -1,0 +1,107 @@
+/* Gaya dasar untuk halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Gaya untuk kontainer */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+}
+
+/* Gaya untuk logo Instagram */
+.instagram-logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Gaya untuk formulir login */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border: 1px solid #333;
+}
+
+input[type="submit"] {
+    background: #3897f0;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.or-separator {
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #aaa;
+    position: relative;
+}
+
+.or-separator span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.or-separator::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.forgot-password {
+    color: #00376b;
+    text-decoration: none;
+}
+
+/* Gaya untuk logo Nature */
+.Nature-Logo {
+    width: 350px; /* Ubah ukuran logo sesuai kebutuhan Anda */
+    display: block;
+    margin: 0 auto; /* Pusatkan logo secara horizontal */
+    margin-bottom: 20px; /* Beri jarak antara logo dan formulir */
+}
+
+
